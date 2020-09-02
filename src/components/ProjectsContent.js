@@ -12,7 +12,7 @@ export default class ProjectsContent extends React.Component{
     render(){
         return(
             <div className="content">
-                <div className = "contentitem">Here are some cool things I made.</div>
+                <div className = "aboutcontenttitle">Here are some <span className="contenttitleone"><strong>cool things</strong></span> I made.</div>
                 <div className = "contentitem"></div>
                 <div className = "contentitem"></div>
             </div>
