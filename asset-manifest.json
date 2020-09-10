@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/mypage/static/css/main.faa3933e.chunk.css",
+    "main.js": "/mypage/static/js/main.fcabd8ae.chunk.js",
+    "main.js.map": "/mypage/static/js/main.fcabd8ae.chunk.js.map",
+    "runtime-main.js": "/mypage/static/js/runtime-main.cc316ea1.js",
+    "runtime-main.js.map": "/mypage/static/js/runtime-main.cc316ea1.js.map",
+    "static/js/2.93a1a413.chunk.js": "/mypage/static/js/2.93a1a413.chunk.js",
+    "static/js/2.93a1a413.chunk.js.map": "/mypage/static/js/2.93a1a413.chunk.js.map",
+    "index.html": "/mypage/index.html",
+    "precache-manifest.6e2d47c78cd10f02020423ce0084ced3.js": "/mypage/precache-manifest.6e2d47c78cd10f02020423ce0084ced3.js",
+    "service-worker.js": "/mypage/service-worker.js",
+    "static/css/main.faa3933e.chunk.css.map": "/mypage/static/css/main.faa3933e.chunk.css.map",
+    "static/js/2.93a1a413.chunk.js.LICENSE.txt": "/mypage/static/js/2.93a1a413.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/mypage/static/media/coves_light-webfont.bb31e072.woff",
+    "static/media/profile.jpg": "/mypage/static/media/profile.64e4dd98.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cc316ea1.js",
+    "static/js/2.93a1a413.chunk.js",
+    "static/css/main.faa3933e.chunk.css",
+    "static/js/main.fcabd8ae.chunk.js"
+  ]
+}
