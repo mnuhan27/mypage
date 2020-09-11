@@ -12,19 +12,42 @@ class Sketch extends React.Component {
     // This uses p5's instance mode for sketch creation and namespacing
     Sketch = (p) => {
 
+        let symmetry = 6;   
+        let angle = 360 / symmetry;
+        let saveButton, clearButton, mouseButton, keyboardButton;
+        let slider;
         // Native p5 functions work as they would normally but prefixed with 
         // a p5 object "p"
         p.setup = () => {
             //Everyhting that normally happens in setup works
-            p.createCanvas(400,400)
+            p.createCanvas(400, 400);
+            p.angleMode(p.DEGREES);
+            p.background(255);
+          
         }
 
         p.draw = () => {
-            // And everything that normally goes in draw in here
-            p.background(255);
-            p.fill(0,200,100);
-            p.noStroke();
-            p.circle(p.width / 2, p.height / 2, 50);
+            p.translate(p.width / 2, p.height / 2);
+
+            if (p.mouseX > 0 && p.mouseX < p.width && p.mouseY > 0 && p.mouseY < p.height) {
+              let mx = p.mouseX - p.width / 2;
+              let my = p.mouseY - p.height / 2;
+              let pmx = p.pmouseX - p.width / 2;
+              let pmy = p.pmouseY - p.height / 2;
+              
+              if (p.mouseIsPressed) {
+                for (let i = 0; i < symmetry; i++) {
+                  p.rotate(angle);
+                  p.stroke('#797596')
+                  p.strokeWeight(5);
+                  p.line(mx, my, pmx, pmy);
+                  p.push();
+                  p.scale(1, -1);
+                  p.line(mx, my, pmx, pmy);
+                  p.pop();
+                }
+              }
+            }
             
         }
     }

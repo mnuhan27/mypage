@@ -23,6 +23,7 @@ export default class Content extends React.Component{
                 <div className = "homecontentitemtwo">I am also a <strong>Web Developer </strong>using tools such as React</div>
                 <div className="sketch">
                 <Sketch />
+                <p>Draw Above!</p>
                 </div>
                 </div>
                 
