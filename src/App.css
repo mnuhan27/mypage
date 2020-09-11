@@ -95,6 +95,10 @@ ul {
 
 }
 
+.homecontent{
+  margin : 5% 10%;
+}
+
 .homecontentitemone{
   font-family: "Coves Light";
   font-weight:normal;
@@ -117,6 +121,12 @@ ul {
 
 }
 
+.sketch{
+  width:30%;
+  margin: 20px auto;
+
+}
+
 .columbia{
   color:#9bddff;
 }
@@ -127,7 +137,6 @@ ul {
   font-family: "Coves Bold";
   font-weight:normal;
   font-style:normal;
-  font-size: 100px;
   color: #797596;
   margin: 0 auto;
 }

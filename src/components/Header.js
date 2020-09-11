@@ -1,6 +1,13 @@
 import React from 'react';
 import {Link} from "react-router-dom"
 
+
+var isAboutStyle = {
+    color: ''
+}
+
+
+
 export default class Header extends React.Component{
 
     constructor(props){
@@ -27,6 +34,8 @@ export default class Header extends React.Component{
 
 
 
+
+
     render(){
         return(
             <div className="header">
@@ -47,6 +56,7 @@ export default class Header extends React.Component{
                 <div className = "headeritem"
                 onMouseEnter={this.changeTextColorEnter}
                 onMouseLeave= {this.changeTextColorLeave}
+
                 >About</div>
                 </Link>
 
